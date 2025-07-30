@@ -1,0 +1,33 @@
+[workspace]
+resolver = "2"
+members = [
+    "00-modern-graphics-api-overview",
+    "01-wgpu-overview",
+    "02-wgpu-triangle-tutorial",
+    "03-texture",
+    "04-uniform-buffer",
+    "05-depth-buffer",
+    "06-instancing",
+    "07-msaa",
+    "08-scissor-and-stencil-test",
+    "09-viewport",
+    "10-error-handling",
+    "11-compute-shader",
+    "12-checking-limits-and-features",
+    "13-gpu-performance-overview",
+    "14-debugging-and-performance-measurement",
+    "15-textures-3d",
+    "16-multiview",
+    "17-push-constants",
+    "18-multiple-rendering-targets",
+    "19-gpu-driven-rendering",
+    "20-occlusion-culling",
+    "21-ray-tracing",
+]
+
+[workspace.dependencies]
+wgpu = "26.0.1"
+winit = "0.30.12"
+pollster = "0.4.0"
+nalgebra = "0.33.2"
+bytemuck = "1.23.1"

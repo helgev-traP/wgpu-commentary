@@ -9,4 +9,4 @@ winit = { workspace = true }
 pollster = { workspace = true }
 nalgebra = { workspace = true }
 bytemuck = { workspace = true }
-
+image = { workspace = true }

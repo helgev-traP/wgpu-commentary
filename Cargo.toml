@@ -1,8 +1,6 @@
 [workspace]
 resolver = "2"
 members = [
-    "00-modern-graphics-api-overview",
-    "01-wgpu-overview",
     "02-wgpu-triangle-tutorial",
     "03-texture",
     "04-uniform-buffer",
